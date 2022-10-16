@@ -1,0 +1,23 @@
+[class*="container"] {
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+
+
+.title{
+   color: blue;
+}
+
+.title:hover{
+   color: green;
+}
+
+img{
+   display: block;
+   
+}
+
+.img:not(:last-child){
+margin-bottom: 30px;
+}
